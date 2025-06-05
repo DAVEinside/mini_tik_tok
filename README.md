@@ -25,3 +25,35 @@ A TikTok-like video recommendation system using transformer encoders for persona
 ```bash
 git clone https://github.com/yourusername/video-recommender.git
 cd video-recommender
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+pip install -e .
+```
+
+3. Start Redis:
+```bash
+redis-server
+```
+
+4. Train the model:
+```bash
+python train.py
+```
+
+5. Start the FastAPI server:    
+
+```bash
+python training/train.py
+```
+
+5. Start the FastAPI server:
+
+```bash
+python app/main.py
+```
+
+
+
